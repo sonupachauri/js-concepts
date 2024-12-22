@@ -16,6 +16,9 @@ let isLoggedIn=true
 // symbol => unique
 //object
 //array
+let arr=[1,2,3]
 
-console.log(typeof null)
+let sym=Symbol(10)
+
+console.log(typeof name)
 

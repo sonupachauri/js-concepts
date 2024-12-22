@@ -1,5 +1,5 @@
 //  let score = "33aa"
-//  let score = null
+ let score = null
 // let score = undefined
 
 // let score = true
@@ -30,10 +30,10 @@
 // console.log(negValue);
 
 
-// console.log("1"+2)
-// console.log(2+"1")
-// console.log("2"+1+2)
-// console.log(2+1+"2")
+console.log("1"+2)
+console.log(2+"1")
+console.log("2"+1+2)
+console.log(2+1+"2")
 
 // console.log(true); // true
 // console.log(+true); // 1

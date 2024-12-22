@@ -24,7 +24,29 @@ let myObj={
     age:34
 }
 
-const myFunc = function() {
-    console.log("inside function");
-}
-myFunc()
+// const myFunc = function() {
+//     console.log("inside function");
+// }
+// myFunc()
+
+// console.log(typeof(null));
+
+//memory
+//stack(primitive) and heap (non-primitive)
+
+let myYoutubename = "sonupachauri";
+let anotherName = myYoutubename;
+anotherName = "newsonupachauri";
+// console.log(myYoutubename);
+// console.log(anotherName);
+
+
+let userOne = {name:"sonu",email:"sonu@gmail.com"}
+
+let userTwo = userOne;
+
+userTwo.email  = "newsonu@gmail.com";
+
+console.log(userOne);
+console.log(userTwo);
+
